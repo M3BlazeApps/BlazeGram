@@ -1,0 +1,62 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Generated and build files
+bin/
+gen/
+out/
+build/
+**/build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Signing & Secret files (SENSITIVE - never commit)
+*.jks
+*.keystore
+*.p12
+*.key
+*.pem
+release.keystore
+debug.keystore
+signing.properties
+key.properties
+secret.properties
+secrets.xml
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Kotlin
+.kotlin/
+
+# Android
+.externalNativeBuild/
+.cxx/
+/captures
+/lint/
+*.hprof
+
+# Crash logs & temporary files
+crash-reports/
+crashlytics-build.properties
+*.log
+*.tmp
+*.swp
+*~
